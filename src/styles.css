@@ -24,8 +24,10 @@ ul[role="list"] {
 }
 
 input,
-button {
+button,
+textarea {
   font: inherit;
+  color: inherit;
 }
 /* ------------------- End of CSS Reset ------------------- */
 
