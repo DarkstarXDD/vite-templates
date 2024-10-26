@@ -25,6 +25,10 @@ textarea {
   font: inherit;
   color: inherit;
 }
+
+button {
+  cursor: pointer;
+}
 /* ------------------- End of CSS Reset ------------------- */
 
 body {
