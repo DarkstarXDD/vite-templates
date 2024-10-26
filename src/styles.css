@@ -1,12 +1,39 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* ------------------- CSS Reset ------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
 
-@layer base {
-  /* font import with @font-face goes here */
+*:focus-visible {
+  outline: 0.125rem dotted green;
+  outline-offset: 0.125rem;
+}
 
-  *:focus-visible {
-    outline: 0.125rem dotted green;
-    outline-offset: 0.125rem;
-  }
+img,
+svg,
+picture {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+/* ------------------- End of CSS Reset ------------------- */
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: hsl(0, 0%, 85%);
+  background-color: hsl(213, 13%, 14%);
 }
