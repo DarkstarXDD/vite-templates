@@ -19,8 +19,47 @@ A custom React project template using Vite, pre-configured with ESLint, Prettier
    ```
 
 - After cloning, install the project dependencies:
+
   ```
   npm install
+  ```
+
+- Optionally there are multiple branches. Each branch has a different template.
+
+  - Vanilla JavaScript
+
+  ```
+  degit https://github.com/DarkstarXDD/vite-react-template#vanilla-js
+  ```
+
+  - Vanilla TypeScript
+
+  ```
+  degit https://github.com/DarkstarXDD/vite-react-template#vanilla-ts
+  ```
+
+  - React with JavaScript
+
+  ```
+  degit https://github.com/DarkstarXDD/vite-react-template#react-js
+  ```
+
+  - React with TypeScript
+
+  ```
+  degit https://github.com/DarkstarXDD/vite-react-template#react-ts
+  ```
+
+  - React with JavaScript and Tailwind
+
+  ```
+  degit https://github.com/DarkstarXDD/vite-react-template#react-js-tailwind
+  ```
+
+  - React with TypeScript and Tailwind
+
+  ```
+  degit https://github.com/DarkstarXDD/vite-react-template#react-ts-tailwind
   ```
 
 ## ESLint Plugins Used
