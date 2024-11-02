@@ -65,6 +65,12 @@ A custom React project template using Vite, pre-configured with ESLint, Prettier
     degit https://github.com/DarkstarXDD/vite-react-template#react-ts-tailwind
     ```
 
+  - Vanilla TypeScript with Tailwind
+
+    ```
+    degit https://github.com/DarkstarXDD/vite-react-template#vanilla-ts-tailwind
+    ```
+
 ## ESLint Plugins Used
 
 - @eslint/js
