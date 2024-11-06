@@ -41,15 +41,21 @@ export default {
     colors: {
       transparent: "transparent",
       white: "hsl(0, 0%, 100%)",
-      grey: "hsl(236, 7%, 48%)",
-      vermellion: "hsl(4, 100%, 67%)",
-      navy: {
-        pale: "hsl(235, 18%, 26%)",
-        dark: "hsl(234, 29%, 20%)",
+      black: "hsl(0, 0%, 0%)",
+      green: "hsl(159, 69%, 38%)",
+
+      red: {
+        DEFAULT: "hsl(14, 86%, 42%)",
+        hover: "hsl(14, 86%, 31%)",
       },
-      gradient: {
-        start: "hsl(15, 100%, 61%)",
-        end: "hsl(346, 100%, 66%)",
+
+      rose: {
+        50: "hsl(20, 50%, 98%)",
+        100: "hsl(13, 31%, 94%)",
+        300: "hsl(14, 25%, 72%)",
+        400: "hsl(7, 20%, 60%)",
+        500: "hsl(12, 20%, 44%)",
+        900: "hsl(14, 65%, 9%)",
       },
     },
 
