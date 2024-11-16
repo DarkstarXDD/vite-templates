@@ -26,11 +26,11 @@ The `master` branch contains the `react-ts-tailwind` template.
 
    OR run one of the following commands in the [branches](#branches) section to get a different template from a branch.
 
-- After cloning, install the project dependencies:
+3. After cloning, install the project dependencies:
 
-  ```
-  npm install
-  ```
+   ```
+   npm install
+   ```
 
 ### Branches:
 
