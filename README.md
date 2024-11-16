@@ -1,6 +1,6 @@
-# Vite - React Template
+# Vite Project Template - Vanilla JavaScript
 
-A custom React project template using Vite, pre-configured with ESLint, Prettier, and a clean folder structure for fast project setup.
+A custom vanilla JS project template using Vite, pre-configured with ESLint, Prettier, and a clean folder structure for fast project setup.
 
 ## How to Use
 
@@ -15,18 +15,10 @@ A custom React project template using Vite, pre-configured with ESLint, Prettier
    ```
 2. Create a root directory for your project, navigate to it, and run the following command to clone the template:
    ```
-   degit https://github.com/DarkstarXDD/vite-react-template
+   degit https://github.com/DarkstarXDD/vite-templates#vanilla-js
    ```
 
 - After cloning, install the project dependencies:
   ```
   npm install
   ```
-
-## ESLint Plugins Used
-
-- @eslint/js
-- eslint-plugin-react
-- eslint-plugin-react-hooks
-- eslint-plugin-react-refresh
-- eslint-plugin-jsx-a11y
