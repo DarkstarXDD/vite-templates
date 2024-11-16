@@ -1,10 +1,13 @@
-# Vite - React Template
+# Vite Project Templates
 
-A custom React project template using Vite, pre-configured with ESLint, Prettier, and a clean folder structure for fast project setup.
+Custom project templates using Vite, pre-configured with ESLint, Prettier, optionally TypeScript and Tailwind CSS, and a clean folder structure for fast project setup.
+
+There are 7 branches, containing different templates for different tools.
+The `master` branch contains the `react-ts-tailwind` template.
 
 ## How to Use
 
-- Clone the repository and install the necessary packages.
+- Clone the necessary branch and install the packages.
 - I recommend using [degit](https://github.com/Rich-Harris/degit) for cloning.
 
 ### Steps:
@@ -18,8 +21,10 @@ A custom React project template using Vite, pre-configured with ESLint, Prettier
 2. Create a root directory for your project, navigate to it, and run the following command to clone the template:
 
    ```
-   degit https://github.com/DarkstarXDD/vite-react-template
+   degit https://github.com/DarkstarXDD/vite-templates
    ```
+
+   OR run one of the following commands in the [branches](#branches) section to get a different template from a branch.
 
 - After cloning, install the project dependencies:
 
@@ -27,49 +32,51 @@ A custom React project template using Vite, pre-configured with ESLint, Prettier
   npm install
   ```
 
-- Optionally there are multiple branches. Each branch has a different template.
+### Branches:
 
-  - Vanilla JavaScript
+Optionally there are multiple branches. Each branch has a different template.
 
-    ```
-    degit https://github.com/DarkstarXDD/vite-react-template#vanilla-js
-    ```
+- Vanilla JavaScript
 
-  - Vanilla TypeScript
+  ```
+  degit https://github.com/DarkstarXDD/vite-templates#vanilla-js
+  ```
 
-    ```
-    degit https://github.com/DarkstarXDD/vite-react-template#vanilla-ts
-    ```
+- Vanilla TypeScript
 
-  - React with JavaScript
+  ```
+  degit https://github.com/DarkstarXDD/vite-templates#vanilla-ts
+  ```
 
-    ```
-    degit https://github.com/DarkstarXDD/vite-react-template#react-js
-    ```
+- Vanilla TypeScript with Tailwind
 
-  - React with TypeScript
+  ```
+  degit https://github.com/DarkstarXDD/vite-templates#vanilla-ts-tailwind
+  ```
 
-    ```
-    degit https://github.com/DarkstarXDD/vite-react-template#react-ts
-    ```
+- React with JavaScript
 
-  - React with JavaScript and Tailwind
+  ```
+  degit https://github.com/DarkstarXDD/vite-templates#react-js
+  ```
 
-    ```
-    degit https://github.com/DarkstarXDD/vite-react-template#react-js-tailwind
-    ```
+- React with TypeScript
 
-  - React with TypeScript and Tailwind
+  ```
+  degit https://github.com/DarkstarXDD/vite-templates#react-ts
+  ```
 
-    ```
-    degit https://github.com/DarkstarXDD/vite-react-template#react-ts-tailwind
-    ```
+- React with JavaScript and Tailwind
 
-  - Vanilla TypeScript with Tailwind
+  ```
+  degit https://github.com/DarkstarXDD/vite-templates#react-js-tailwind
+  ```
 
-    ```
-    degit https://github.com/DarkstarXDD/vite-react-template#vanilla-ts-tailwind
-    ```
+- React with TypeScript and Tailwind
+
+  ```
+  degit https://github.com/DarkstarXDD/vite-templates#react-ts-tailwind
+  ```
 
 ## ESLint Plugins Used
 
